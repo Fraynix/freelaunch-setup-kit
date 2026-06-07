@@ -101,7 +101,7 @@ Aucun terminal au début — l'extension VS Code embarque déjà l'assistant.
    **« Claude Code »** → **Install**. (Rien d'autre à installer, l'assistant est inclus.)
 3. **Ouvre un dossier** (Fichier → Ouvrir le dossier), clique l'icône **✨ Claude**, **connecte-toi** (Autoriser).
 4. **Colle ce message** dans le panneau Claude :
-   > Lis `https://github.com/Dimka06000/freelaunch-setup-kit`, installe tous les outils dont j'ai
+   > Lis `https://github.com/fraynix/freelaunch-setup-kit`, installe tous les outils dont j'ai
    > besoin, guide-moi pour mes comptes et mes clés, et aide-moi à créer ma plateforme. Je ne suis
    > pas développeur, parle-moi en français.
 5. **Tu réponds juste à ses questions** (autoriser une page, coller une clé, dire oui). Il fait le reste.
@@ -115,10 +115,10 @@ La page guide [index.html](./index.html) présente ces étapes joliment, avec bo
 ### Pour les devs / les pressés : tout installer d'un coup
 Le one-liner [bootstrap](./bootstrap.ps1) télécharge le kit, **installe tous les CLI** puis ouvre le guide :
 ```powershell
-irm https://raw.githubusercontent.com/Dimka06000/freelaunch-setup-kit/main/bootstrap.ps1 | iex     # Windows
+irm https://raw.githubusercontent.com/fraynix/freelaunch-setup-kit/main/bootstrap.ps1 | iex     # Windows
 ```
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Dimka06000/freelaunch-setup-kit/main/bootstrap.sh | bash   # macOS / Linux
+curl -fsSL https://raw.githubusercontent.com/fraynix/freelaunch-setup-kit/main/bootstrap.sh | bash   # macOS / Linux
 ```
 
 Bonne installe 🚀

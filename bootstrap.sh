@@ -2,11 +2,11 @@
 # Setup Kit — bootstrap one-liner (macOS / Linux)
 # UNE commande qui : telecharge le kit -> INSTALLE TOUS LES CLI -> ouvre le guide pour la suite.
 # Usage :
-#   curl -fsSL https://raw.githubusercontent.com/Dimka06000/freelaunch-setup-kit/main/bootstrap.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/fraynix/freelaunch-setup-kit/main/bootstrap.sh | bash
 
 set -e
 
-REPO="Dimka06000/freelaunch-setup-kit"
+REPO="fraynix/freelaunch-setup-kit"
 BRANCH="main"
 DEST="$HOME/setup-kit"
 

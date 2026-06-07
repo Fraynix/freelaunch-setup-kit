@@ -1,11 +1,11 @@
 # Setup Kit — bootstrap one-liner (Windows)
 # UNE commande qui : telecharge le kit -> INSTALLE TOUS LES CLI -> ouvre le guide pour la suite.
 # Usage :
-#   irm https://raw.githubusercontent.com/Dimka06000/freelaunch-setup-kit/main/bootstrap.ps1 | iex
+#   irm https://raw.githubusercontent.com/fraynix/freelaunch-setup-kit/main/bootstrap.ps1 | iex
 
 $ErrorActionPreference = "Stop"
 
-$repo   = "Dimka06000/freelaunch-setup-kit"
+$repo   = "fraynix/freelaunch-setup-kit"
 $branch = "main"
 $dest   = Join-Path $HOME "setup-kit"
 

@@ -13,8 +13,8 @@ Va doucement, une étape à la fois, et **arrête-toi dès qu'il a une action hu
 Détecte l'OS et lance l'installeur auto-suffisant du kit (il installe Node, git, gh, Vercel,
 Supabase, Stripe — sans droits admin, idempotent) :
 
-- **Windows :** `irm https://raw.githubusercontent.com/Dimka06000/freelaunch-setup-kit/main/scripts/install-windows.ps1 | iex`
-- **macOS / Linux :** `curl -fsSL https://raw.githubusercontent.com/Dimka06000/freelaunch-setup-kit/main/scripts/install-mac.sh | bash`
+- **Windows :** `irm https://raw.githubusercontent.com/fraynix/freelaunch-setup-kit/main/scripts/install-windows.ps1 | iex`
+- **macOS / Linux :** `curl -fsSL https://raw.githubusercontent.com/fraynix/freelaunch-setup-kit/main/scripts/install-mac.sh | bash`
 
 Explique en une phrase ce que tu fais avant de lancer. À la fin, vérifie que `node`, `git`, `gh`,
 `vercel`, `supabase`, `stripe` répondent.
@@ -44,7 +44,7 @@ Recette complète : `06-creer-la-plateforme.md`.
 - Pas de `rm -rf`, pas de `git push --force`, jamais de secret dans un fichier commit
   (utilise `${VAR}` + `.env.local`). Vérifie que `.env.local` est gitignoré avant tout commit.
 - Si le kit n'est pas présent localement, récupère ce dont tu as besoin depuis le repo public
-  `Dimka06000/freelaunch-setup-kit` (chapitres `00`–`07`).
+  `fraynix/freelaunch-setup-kit` (chapitres `00`–`07`).
 - Rassure : à chaque étape, dis où on en est et ce qui vient ensuite. L'objectif est qu'il n'ait
   jamais à deviner quoi que ce soit.
 
